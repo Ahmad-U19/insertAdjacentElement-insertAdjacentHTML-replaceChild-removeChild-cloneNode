@@ -1,1 +1,1 @@
-<h2>JavaScript: 26t December</h2>
+<h2>JavaScript: 26th December</h2>
