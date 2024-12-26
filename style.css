@@ -1,0 +1,95 @@
+h1{
+    visibility: visible;
+    position: sticky;
+    left: 17px;
+    top: 20px;
+}
+
+body{
+    background-color: blueviolet;
+    margin: auto auto;
+}
+
+#first{
+    border: 0px solid black;
+    width: 1000px;
+    background: white;
+    margin: auto;
+}
+
+#header{
+    /*background: orange;*/
+    height: 70px;
+    text-align: center;
+    margin: 0;
+    color: green;
+    font-size: 25px ;
+    box-sizing: border-box;
+}
+.varay{
+    background: red;
+}
+.vadara{
+    background: greenyellow;
+}
+#menu{
+    background-color: lightsalmon;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+#menu li a{
+    display: block;
+    padding: 10px 13px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    background: crimson;
+    color: white;
+}
+#content{
+    width: 800px;
+    float: left;
+    min-height: 500px;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    width: 200px;
+    float: right;
+    min-height: 500px;
+    background-color: aqua;
+}
+
+#sidebar li a{
+    display: block;
+    padding: 10px 13px;
+    text-decoration: none;
+    color: black;
+}
+
+#sidebar li{
+    display: block;
+}
+
+#footer{
+    background-color: brown;
+    text-align: right;
+    padding: 5px 10px;
+    color: white;
+    clear: both;
+}
